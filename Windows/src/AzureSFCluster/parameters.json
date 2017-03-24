@@ -1,0 +1,102 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "sdsfdemo"
+        },
+        "clusterLocation": {
+            "value": "ukwest"
+        },
+        "computeLocation": {
+            "value": "ukwest"
+        },
+        "adminUserName": {
+            "value": "Simon"
+        },
+        "nicName": {
+            "value": "NIC-sdsfdemo"
+        },
+        "publicIPAddressName": {
+            "value": "sdsfdemo-PubIP"
+        },
+        "vmStorageAccountName": {
+            "value": "sfvmsdsfdemo8609"
+        },
+        "dnsName": {
+            "value": "sdsfdemo"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-sdsfdemo"
+        },
+        "lbName": {
+            "value": "LB-sdsfdemo"
+        },
+        "lbIPName": {
+            "value": "LBIP-sdsfdemo"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "sfdgsdsfdemo7174"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogssdsfdemo9305"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "nt1ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt1ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt1applicationStartPort": {
+            "value": 20000
+        },
+        "nt1applicationEndPort": {
+            "value": 30000
+        },
+        "nt1fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt1fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "nt2ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt2ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt2applicationStartPort": {
+            "value": 20000
+        },
+        "nt2applicationEndPort": {
+            "value": 30000
+        },
+        "nt2fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt2fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "vmImageSku": { 
+            "value": "2016-Datacenter-with-Containers"
+        }
+    }
+}

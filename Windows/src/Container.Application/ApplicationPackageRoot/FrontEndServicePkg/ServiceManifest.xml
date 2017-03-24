@@ -15,7 +15,7 @@
     <EntryPoint>
       <ContainerHost>
         <!--Replace [myrepo] to be the name of your repo on https://hub.docker.com -->
-        <ImageName>[myrepo]/servicefabricfrontendservice:v1</ImageName>
+        <ImageName>simongdavies/servicefabricfrontendservice:v1</ImageName>
       </ContainerHost>
     </EntryPoint>
     <!-- Pass environment variables to your container or exe: -->
